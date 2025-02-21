@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Vue Mastery 0_0</title>
+    <!-- Import Styles -->
+   <link rel="stylesheet" href="./assets/styles.css"/>
+    <!-- Import Scripts -->
+    <script src="https://unpkg.com/vue@3/dist/vue.global.js"></script> <!--This CDN is for protytping and learning purposes, should not be used on prod environments-->
+
+    </head>
+    <body>
+        <div id="app">
+            <h1>{{product}}</h1>  <!-- will reactively receive any updates to product -->
+        </div>
+        <!-- Import Vue App -->
+        <script src="./main.js"></script>
+
+        <!-- Mount Vue App -->
+         <script>
+            const mountedApp = app.mount('#app')
+         </script>
+            
+    </body>
+</html>
