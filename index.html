@@ -31,6 +31,9 @@
                         <p v-if="inventory > 10">In Stock</p>
                         <p v-else-if="ïnventory <= 10 && inventory > 0">Almost sold out!</p>
                         <p v-else>Sold out</p>
+                        <!--Code Challenge | Start-->
+                        <p v-show="onSale">On Sale</p>
+                        <!--Code Challenge | End-->
                     </div>
                     <a :href="url">More products like this</a>
                 </div>
