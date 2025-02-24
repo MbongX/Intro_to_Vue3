@@ -4,7 +4,8 @@ const app = Vue.createApp({
             product: 'Socks',
             //to target on of those images we should add a new data property iour view app
             image: './assets/images/socks_green.jpg',
-            url: '127.0.0.1'
+            url: '127.0.0.1',
+            inventory: 100
         }
     }
 })
